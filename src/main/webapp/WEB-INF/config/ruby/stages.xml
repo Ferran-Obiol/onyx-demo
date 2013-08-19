@@ -1,5 +1,5 @@
 <stages>
-
+  <!--
   <stage>
     <name>BloodUrineSamplesCollection</name>
     <module>ruby</module>
@@ -31,5 +31,5 @@
       </script>
     </stageDependencyCondition>
   </stage>
-  
+   -->
 </stages>
