@@ -7,15 +7,29 @@
 		<editableAtReception>true</editableAtReception>
 		<editableAfterReception>false</editableAfterReception>
 		<type>TEXT</type>
-		<validators>
-			<dataValidator dataType="INTEGER">
- 				<rangeValidator> 
-				<minimum>00000</minimum> 
-				<maximum>99999</maximum> 
- 				</rangeValidator> 
-			</dataValidator>
-		</validators>
+        <validators>
+            <dataValidator dataType="TEXT">
+                <patternValidator>
+                    <pattern>
+                        <pattern>^\d{5}$</pattern>
+                    </pattern>
+                </patternValidator>
+            </dataValidator>
+        </validators>
 	</attribute>
+    <attribute>
+        <name>Tipus Mostra</name>
+        <assignableAtEnrollment>true</assignableAtEnrollment>
+        <mandatoryAtEnrollment>false</mandatoryAtEnrollment>
+        <mandatoryAtReception>false</mandatoryAtReception>
+        <editableAtReception>false</editableAtReception>
+        <editableAfterReception>false</editableAfterReception>
+        <type>TEXT</type>
+        <defaultValues>
+            <attributeValue type="TEXT">Sang</attributeValue>
+        </defaultValues>
+    </attribute>
+
 <!-- 	<attribute> -->
 <!-- 		<name>ID BST</name> -->
 <!-- 		<assignableAtEnrollment>true</assignableAtEnrollment> -->

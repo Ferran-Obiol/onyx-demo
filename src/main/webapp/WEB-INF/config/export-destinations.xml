@@ -25,6 +25,8 @@
 				<variableName type="EXCLUDE" prefix="Admin.Participant" />
 				<variableName type="INCLUDE" prefix="Admin.Participant.barcode" />
 				<variableName type="INCLUDE" prefix="Admin.Participant.PostalCodePrefix" />
+             <!--   <variableName type="INCLUDE" prefix="Admin.Participant.First Name" />
+                <variableName type="INCLUDE" prefix="Admin.Participant.Declared_Gender" />        -->
 			</variables>
 		</valueset>
 
