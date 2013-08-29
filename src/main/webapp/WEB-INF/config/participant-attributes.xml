@@ -19,9 +19,9 @@
 	</attribute>
     <attribute>
         <name>Tipus Mostra</name>
-        <assignableAtEnrollment>false</assignableAtEnrollment>
-        <mandatoryAtEnrollment>false</mandatoryAtEnrollment>
-        <mandatoryAtReception>false</mandatoryAtReception>
+        <assignableAtEnrollment>true</assignableAtEnrollment>
+        <mandatoryAtEnrollment>true</mandatoryAtEnrollment>
+        <mandatoryAtReception>true</mandatoryAtReception>
         <editableAtReception>false</editableAtReception>
         <editableAfterReception>false</editableAfterReception>
         <type>TEXT</type>
