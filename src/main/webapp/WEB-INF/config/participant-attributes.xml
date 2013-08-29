@@ -19,11 +19,11 @@
 	</attribute>
     <attribute>
         <name>Tipus Mostra</name>
-        <assignableAtEnrollment>true</assignableAtEnrollment>
-        <mandatoryAtEnrollment>true</mandatoryAtEnrollment>
-        <mandatoryAtReception>true</mandatoryAtReception>
-        <editableAtReception>true</editableAtReception>
-        <editableAfterReception>true</editableAfterReception>
+        <assignableAtEnrollment>false</assignableAtEnrollment>
+        <mandatoryAtEnrollment>false</mandatoryAtEnrollment>
+        <mandatoryAtReception>false</mandatoryAtReception>
+        <editableAtReception>false</editableAtReception>
+        <editableAfterReception>false</editableAfterReception>
         <type>TEXT</type>
         <defaultValues>
             <attributeValue type="TEXT">Sang</attributeValue>
