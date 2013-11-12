@@ -169,7 +169,7 @@
 	</destination>
 
 	<destination>
-		<name>Dades Anna</name>
+		<name>Dades LIMS</name>
 		<!-- Export in CSV with provided options -->
 		<options>
 			<format>CSV</format>

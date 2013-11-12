@@ -15,18 +15,6 @@
   </bean>
  <bean class="org.obiba.onyx.opal.CsvDatasourceProvider" lazy-init="false">
     <property name="magmaEngine" ref="magmaEngine" />
-    <property name="file" value="${org.obiba.onyx.config.path}/datasources/medications/AINES.csv" />
-    <property name="datasourceName" value="AINES" />
-    <property name="tableName" value="AINES" />
-  </bean>
- <bean class="org.obiba.onyx.opal.CsvDatasourceProvider" lazy-init="false">
-    <property name="magmaEngine" ref="magmaEngine" />
-    <property name="file" value="${org.obiba.onyx.config.path}/datasources/medications/Estatines.csv" />
-    <property name="datasourceName" value="Estatines" />
-    <property name="tableName" value="Estatines" />
-  </bean>
- <bean class="org.obiba.onyx.opal.CsvDatasourceProvider" lazy-init="false">
-    <property name="magmaEngine" ref="magmaEngine" />
     <property name="file" value="${org.obiba.onyx.config.path}/datasources/medications/hormones.csv" />
     <property name="datasourceName" value="hormones" />
     <property name="tableName" value="hormones" />

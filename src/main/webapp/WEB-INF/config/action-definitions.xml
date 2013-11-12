@@ -11,7 +11,7 @@
 	<actionDefinition>
 		<code>action.COMPLETE</code>
 		<type>COMPLETE</type>
-		<askPassword>false</askPassword>
+		<askPassword>true</askPassword>
 		<askParticipantId>false</askParticipantId>
 		<commentMandatory>false</commentMandatory>
 	</actionDefinition>
@@ -20,9 +20,9 @@
 	<actionDefinition>
 		<code>action.SKIP</code>
 		<type>SKIP</type>
-		<askPassword>false</askPassword>
+		<askPassword>true</askPassword>
 		<askParticipantId>false</askParticipantId>
-		<commentMandatory>false</commentMandatory>
+		<commentMandatory>true</commentMandatory>
 		<reasonMandatory>false</reasonMandatory>
 		<reasons>
 			<string>Action.Reason.TechnicalProblem</string>
@@ -34,9 +34,9 @@
 	<actionDefinition>
 		<code>action.STOP</code>
 		<type>STOP</type>
-		<askPassword>false</askPassword>
+		<askPassword>true</askPassword>
 		<askParticipantId>false</askParticipantId>
-		<commentMandatory>false</commentMandatory>
+		<commentMandatory>true</commentMandatory>
 		<reasonMandatory>false</reasonMandatory>
 		<reasons>
 			<string>Action.Reason.TechnicalProblem</string>
@@ -48,9 +48,9 @@
 	<actionDefinition>
 		<code>action.INTERRUPT</code>
 		<type>INTERRUPT</type>
-		<askPassword>false</askPassword>
+		<askPassword>true</askPassword>
 		<askParticipantId>false</askParticipantId>
-		<commentMandatory>false</commentMandatory>
+		<commentMandatory>true</commentMandatory>
 		<reasonMandatory>false</reasonMandatory>
 		<reasons>
 			<string>Action.Reason.TechnicalProblem</string>
@@ -67,8 +67,8 @@
 		<code>action.STOP.Interview</code>
 		<type>STOP</type>
 		<askParticipantId>false</askParticipantId>
-		<askPassword>false</askPassword>
-		<commentMandatory>false</commentMandatory>
+		<askPassword>true</askPassword>
+		<commentMandatory>true</commentMandatory>
 		<reasonMandatory>false</reasonMandatory>
 		<reasons>
 			<string>Action.Reason.TechnicalProblem</string>
@@ -81,8 +81,8 @@
 		<code>action.STOP.Closed.Interview</code>
 		<type>STOP</type>
 		<askParticipantId>false</askParticipantId>
-		<askPassword>false</askPassword>
-		<commentMandatory>false</commentMandatory>
+		<askPassword>true</askPassword>
+		<commentMandatory>true</commentMandatory>
 		<reasonMandatory>false</reasonMandatory>
 		<reasons>
 			<string>Action.Reason.TechnicalProblem</string>

@@ -84,7 +84,7 @@
   </dependencies>
 
   <build>
-    <finalName>onyx-demo</finalName>
+    <finalName>onyx-GCAT</finalName>
     <plugins>
 
       <plugin>
