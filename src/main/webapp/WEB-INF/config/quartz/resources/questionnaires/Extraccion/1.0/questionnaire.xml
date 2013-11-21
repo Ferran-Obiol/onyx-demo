@@ -14,7 +14,7 @@
               <questionCategories id="11">
                 <questionCategory id="12">
                   <question reference="10"/>
-                  <category id="13" name="DONANTE" escape="false">
+                  <category id="13" name="Y" escape="false">
                     <variableNames id="14"/>
                     <noAnswer>false</noAnswer>
                     <attributes id="15"/>
@@ -22,7 +22,7 @@
                 </questionCategory>
                 <questionCategory id="16">
                   <question reference="10"/>
-                  <category id="17" name="NO_DONANTE" escape="false">
+                  <category id="17" name="N" escape="false">
                     <variableNames id="18"/>
                     <noAnswer>false</noAnswer>
                     <attributes id="19"/>
@@ -68,7 +68,7 @@
                   </category>
                 </questionCategory>
               </questionCategories>
-              <condition class="variableDataSource" id="40" path="Extraccion:TIPO_PARTICIPANTE.NO_DONANTE"/>
+              <condition class="variableDataSource" id="40" path="Extraccion:TIPO_PARTICIPANTE.N"/>
               <questions id="41"/>
               <attributes id="42"/>
             </question>
@@ -108,7 +108,7 @@
                   </category>
                 </questionCategory>
               </questionCategories>
-              <condition class="variableDataSource" id="61" path="Extraccion:TIPO_PARTICIPANTE.DONANTE"/>
+              <condition class="variableDataSource" id="61" path="Extraccion:TIPO_PARTICIPANTE.Y"/>
               <questions id="62"/>
             </question>
           </questions>

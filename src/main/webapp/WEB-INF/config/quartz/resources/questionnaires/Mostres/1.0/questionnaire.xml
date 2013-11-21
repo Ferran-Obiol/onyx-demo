@@ -952,42 +952,42 @@
     </variable>
     <variable id="455" name="DONANTE" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="456" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.DONANTE&apos;).and($(&apos;INCIDENCIA_EXTRACCION.SI&apos;))</attribute>
+        <attribute id="456" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.Y&apos;).and($(&apos;INCIDENCIA_EXTRACCION.SI&apos;))</attribute>
       </attributes>
     </variable>
     <variable id="457" name="NO_DONANTE" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="458" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.NO_DONANTE&apos;).and($(&apos;INCIDENCIA_EXTRACCION.SI&apos;))</attribute>
+        <attribute id="458" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.N&apos;).and($(&apos;INCIDENCIA_EXTRACCION.SI&apos;))</attribute>
       </attributes>
     </variable>
-    <variable id="459" name="PRE_PROCESAMIENTO_DONANTE" valueType="boolean" entityType="Participant">
+    <variable id="459" name="PST" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="460" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.DONANTE&apos;).and($(&apos;INCIDENCIA_PRE_PROCESAMIENTO.SI&apos;))</attribute>
+        <attribute id="460" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE.LHG&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE.LHG&apos;));</attribute>
       </attributes>
     </variable>
-    <variable id="461" name="PRE_PROCESAMIENTO_NO_DONANTE" valueType="boolean" entityType="Participant">
+    <variable id="461" name="PST_PRE_PROCESAMIENTO" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="462" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.NO_DONANTE&apos;).and($(&apos;INCIDENCIA_PRE_PROCESAMIENTO.SI&apos;))</attribute>
+        <attribute id="462" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE_PRE_PROCESAMIENTO.LHG&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE_PRE_PROCESAMIENTO.LHG&apos;));</attribute>
       </attributes>
     </variable>
-    <variable id="463" name="PST" valueType="boolean" entityType="Participant">
+    <variable id="463" name="SST" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="464" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE.LHG&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE.LHG&apos;));</attribute>
+        <attribute id="464" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE.SST&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE.SST&apos;));</attribute>
       </attributes>
     </variable>
-    <variable id="465" name="PST_PRE_PROCESAMIENTO" valueType="boolean" entityType="Participant">
+    <variable id="465" name="SST_PRE_PROCESAMIENTO" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="466" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE_PRE_PROCESAMIENTO.LHG&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE_PRE_PROCESAMIENTO.LHG&apos;));</attribute>
+        <attribute id="466" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE_PRE_PROCESAMIENTO.SST&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE_PRE_PROCESAMIENTO.SST&apos;));</attribute>
       </attributes>
     </variable>
-    <variable id="467" name="SST" valueType="boolean" entityType="Participant">
+    <variable id="467" name="PRE_PROCESAMIENTO_DONANTE" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="468" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE.SST&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE.SST&apos;));</attribute>
+        <attribute id="468" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.Y&apos;).and($(&apos;INCIDENCIA_PRE_PROCESAMIENTO.SI&apos;))</attribute>
       </attributes>
     </variable>
-    <variable id="469" name="SST_PRE_PROCESAMIENTO" valueType="boolean" entityType="Participant">
+    <variable id="469" name="PRE_PROCESAMIENTO_NO_DONANTE" valueType="boolean" entityType="Participant">
       <attributes>
-        <attribute id="470" name="script" valueType="text">$(&apos;TIPO_CONTENEDOR_DONANTE_PRE_PROCESAMIENTO.SST&apos;).or($(&apos;TIPO_CONTENEDOR_NO_DONANTE_PRE_PROCESAMIENTO.SST&apos;));</attribute>
+        <attribute id="470" name="script" valueType="text">$(&apos;Extraccion:TIPO_PARTICIPANTE.N&apos;).and($(&apos;INCIDENCIA_PRE_PROCESAMIENTO.SI&apos;))</attribute>
       </attributes>
     </variable>
   </variables>
